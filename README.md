@@ -6,6 +6,8 @@ Módulos da Plataforma:
 + Professores
 + Pagamento
 + Administrador
+
+
 Linguagens e Frameworks utilizados:
 + PHP
 + Laravel Framework 5.5
