@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 2em;
+	font-weight: 300;
+	color: #000!important;
+}
+.form-inline{
+	border:1px solid #000;
+}
+.form-inline input{
+	background-color: transparent;
+	border: none;
+}
+.form-inline input::placeholder{
+	color: #000;
+}
+.form-inline input:focus{
+	background-color: transparent;
+	border: none;
+	color: #000;
+}
+.form-inline button{
+	border: none;
+	color: #000;
+}
+.form-inline button:hover{
+	background-color: transparent;
+}
+.nav-item a{
+	color: #000!important;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.mat{
+	background-color: green;
+	font-size: 14px!important;
+	padding: 5px;
+}
+/*Customização do curso titulo*/
+#curso{
+	background-color: violet;
+	color: #fff;
+}
+#curso p{
+	font-size: 18px;
+}
+/*Customização dos cards*/
+.card{
+	margin: 10px;
+}
+/* Avalaliação com estrelas*/
+.estrelas input[type=radio]{
+	display: none;
+}.estrelas label i.fa:before{
+	content: '\f005';
+	color: #FC0;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+	color: #CCC;
+}
+#lista .card{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#lista .card:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}

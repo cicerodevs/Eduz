@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #2372ea;
+}
+
+#header{
+	background-color: #2372ea;
+	height: 100vh;
+}
+.navbar-brand{
+	font-size: 2em;
+	font-weight: 300;
+}
+.form-inline{
+	border:1px solid #fff;
+}
+.form-inline input{
+	background-color: transparent;
+	border: none;
+}
+.form-inline input::placeholder{
+	color: #fff;
+}
+.form-inline input:focus{
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
+.form-inline button{
+	border: none;
+	color: #fff;
+}
+.form-inline button:hover{
+	background-color: transparent;
+}
+.nav-item a{
+	color: #fff!important;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.mat{
+	
+	background-color: green;
+	font-size: 14px!important;
+	padding: 5px;
+}
+/*formatação do texto h1 marketing*/
+h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+.mobile{
+	color: violet;
+}
+.mobile:hover{
+	color: violet;
+}
+
+.front{
+	color: orange;
+}
+.front:hover{
+	color: orange;
+}
+
+.design{
+	color: red;
+}
+.design:hover{
+	color: red;
+}
+
+.card a{
+	text-decoration: none;
+}
+
